@@ -1,3 +1,3 @@
 # Learn_HTML-CSS
 
-Learning HTML & CSS with OpenClassrooms
+Learning HTML5 & CSS3 with OpenClassrooms
