@@ -1,0 +1,26 @@
+@font-face{
+    font-family: "Roboto";
+    src: url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+}
+body{
+    background-image: url(../images/cv.png);
+    color: white;
+    font-family: Roboto;
+}
+h1{
+    color: white;
+}
+h2{
+    font-size: 2em;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+}
+h3{
+    text-decoration: underline;
+}
+figure{
+    text-align: center;
+}
