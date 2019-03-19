@@ -1,0 +1,46 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: white;
+}
+header{
+    text-align: center;
+    border-bottom: 2px solid white;
+}
+footer{
+    text-align: center;
+    border-top: 2px solid white;
+}
+nav{
+
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+nav li{
+    color: black;
+    background: white;;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    flex: 1;
+    text-align: center;
+    box-shadow: 0px 0px 10px white;
+}
+a:link, a:visited{
+    color: black;
+    text-decoration: none;
+}
+a:active, a:hover{
+
+}
+figure{
+    text-align: center;
+}
+figure img{
+    border: 2px dashed white;
+}
