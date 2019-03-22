@@ -44,3 +44,13 @@ figure{
 figure img{
     border: 2px dashed white;
 }
+table{
+    border-collapse: collapse;
+    margin: 10px;
+}
+th{
+    border: 2px solid white; 
+}
+td{
+    border: 2px solid white;
+}
