@@ -11,17 +11,15 @@ body{
     flex-direction: row;
 }
 nav{
-    text-align: center;;
+    text-align: center;
+    border: 2em solid black;
+    writing-mode: vertical-rl;
 }
-div{
+#page{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-}
-nav{
-    border: 2em solid black;
-    writing-mode: vertical-rl;
 }
 header{
     width: 100%;
@@ -31,7 +29,7 @@ header{
     align-items: center;
 }
 footer{
-    width: 80%;
+    width: 70%;
     text-align: center;
 }
 h1{
@@ -46,8 +44,9 @@ h3{
 figure{
     text-align: center;
 }
-section{
-    
+#content{
+    display: flex;
+    flex-direction: row;
 }
 .section{
     border: 0.2em solid white;
@@ -57,4 +56,12 @@ section{
     background-color: black;
     opacity: 0.9;
     margin: 1%;
+}
+@media screen and (max-width: 1080px){
+    nav{
+        display: none;
+    }
+    #content{
+        flex-direction: column;
+    }
 }
